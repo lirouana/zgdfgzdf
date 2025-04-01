@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gusteau's</title> <!--nome da pagina-->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo mundo pode cozinhar</title>
+
+    <style>
+        .container {
+      height: 50vh;
+      width: 100%;  /* Defina a largura que você deseja para o contêiner */
+      margin: 0; /* As margens automáticas centralizam o contêiner horizontalmente */
+      padding: 0; /* Elimina qualquer padding extra que possa estar nas laterais */
+      overflow: hidden; 
+      position: relative; /* container relativo para posicionar o texto*/
+    }
+
+    img {
+      display: block; /* Elimina qualquer espaço em branco abaixo da imagem */
+      width: 100%; /* A imagem ocupa toda a largura disponível no contêiner */
+      height: 100%; /* A altura se ajusta proporcionalmente */
+      object-fit: cover;
+      margin: 0; /* Elimina qualquer margem ao redor da imagem */
+    }
+
+    .texto {
+      position: absolute; /* O texto ficará posicionado sobre a imagem */
+      top: 50%; /* Coloca o texto no meio da altura do contêiner */
+      left: 50%; /* Coloca o texto no meio da largura do contêiner */
+      transform: translate(-50%, -50%); /* Ajuste para centralizar perfeitamente */
+      color: white; /* Cor do texto */
+      font-size: 60px; /* Tamanho da fonte */
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Sombra para melhorar a visibilidade */
+      font-family: 'Brush Script MT', cursive;
+    }
+
+      </style>
+</head>
+<body>
+   
+    
+    <div class="container">
+        <img src="conceito.jpeg" alt="imagem">
+        <div class="texto">Todo mundo pode cozinhar</div>
+    </div>
+</body>
+</html>
